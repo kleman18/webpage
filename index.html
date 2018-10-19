@@ -7,6 +7,83 @@
     <title>webpage</title>
 </head>
 <body>
-    <h>Sample Webpages</h>
+    <header lang="uk">
+        <h1>ФанКлуб ФК "Карпати" Львів</h1>
+        <a href="Opytuvannya.html">Опитування</a>
+    </header>
+    <main>
+        <img src="img/karpaty.jpg" alt="karpaty">
+        <section lang="uk">
+            <h2>Турнірна таблиця</h2>    
+            <table border="1">
+                <tr>
+                    <th>Місце</th><th>Команда</th><th>Кількість матчів</th><th>Очки</th>
+                </tr>
+                <tr>
+                    <td>1</td><td>Шахтар</td><td>11</td><td>28</td>
+                </tr>
+                <tr>
+                    <td>2</td><td>Динамо</td><td>11</td><td>26</td>
+                </tr>
+                <tr>
+                    <td>3</td><td>Олександрія</td><td>11</td><td>22</td>
+                </tr>
+                <tr>
+                    <td>4</td><td>Ворскла</td><td>11</td><td>18</td>
+                </tr>
+                <tr>
+                    <td>5</td><td>Зоря</td><td>11</td><td>14</td>
+                </tr>
+                <tr>
+                    <td>6</td><td>Маріуполь</td><td>11</td><td>14</td>
+                </tr>
+                <tr>
+                    <td>7</td><td>Десна</td><td>11</td><td>13</td>
+                </tr>
+                <tr>
+                    <td>8</td><td>Олімпік</td><td>11</td><td>12</td>
+                </tr>
+                <tr>
+                    <td>9</td><td>Львів</td><td>11</td><td>11</td>
+                </tr>
+                <tr>
+                    <td>10</td><td>Карпати</td><td>11</td><td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td><td>Чорноморець</td><td>11</td><td>9</td>
+                </tr>
+                <tr>
+                    <td>12</td><td>Арсенал</td><td>11</td><td>7</td>
+                </tr>
+                
+            </table>
+        </section>
+        
+        <section lang="uk">
+            <h2>Купити квиток на наступний матч</h2>
+            <form method="POST" action="https://formspree.io/v.kleman1996@gmail.com">
+                <label>Прізвище та ім'я:
+                    <input type="text" name="name"
+                     placeholder="name" required>
+                </label> 
+                <br> 
+                <label>Номер телефону:
+                    <input type="tel" name="number"
+                     placeholder="number" required>
+                </label> 
+                <br>
+                <label lang="en">E-MAIL:
+                    <input type="email" name="email"
+                     placeholder="email" required>
+                </label> 
+                <br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>Contacts</h3>
+    </footer>
 </body>
 </html>
